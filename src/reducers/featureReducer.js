@@ -19,7 +19,7 @@ const initialState = {
 
 //Reducer
 
-export const partReducer = (state = initialState, action) => {
+export const featureReducer = (state = initialState, action) => {
 
     switch(action.type) {
 
@@ -29,3 +29,4 @@ export const partReducer = (state = initialState, action) => {
     }
 
 }
+
