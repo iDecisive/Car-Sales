@@ -1,19 +1,15 @@
-//add
+export const ADD_FEATURE = 'ADD_FEATURE'
 
-export const ADD = 'ADD'
+export const addFeature = item => {
 
-export const add = item => {
-
-    return {type: ADD, payload: item}
+    return {type: ADD_FEATURE, payload: item}
 
 }
 
-//remove
+export const REMOVE_FEATURE = 'REMOVE_FEATURE'
 
-export const REMOVE = 'REMOVE'
+export const removeFeature = item => {
 
-export const remove = item => {
-
-    return {type: REMOVE, payload: item}
+    return {type: REMOVE_FEATURE, payload: item}
 
 }
